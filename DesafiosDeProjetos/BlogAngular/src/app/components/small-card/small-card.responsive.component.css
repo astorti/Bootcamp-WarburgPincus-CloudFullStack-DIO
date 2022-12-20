@@ -1,0 +1,23 @@
+@media screen and (max-width:700px){
+    .container__small-card-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }  
+    
+    .container__small-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        margin-bottom: 15px;
+    } 
+
+    .container__small-card__separator {
+        width: 300px;
+        margin-top: 15px;
+    }
+}

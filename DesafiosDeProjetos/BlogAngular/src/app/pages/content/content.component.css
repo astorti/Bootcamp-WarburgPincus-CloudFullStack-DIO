@@ -1,0 +1,32 @@
+.container__content{
+    width:  100%;
+    height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__cover img {
+    border: 3px solid rgb(128, 124, 124);
+    border-radius: 5px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+}
+
+.content__title {
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.content__description {
+    margin-top: 15px;
+}
+
+.content__description p {
+    width: 500px;
+    color: rgb(180, 176, 176);
+    text-align: justify;
+}

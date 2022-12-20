@@ -53,6 +53,8 @@ Contém os Desafios de Projetos apresentados durante o bootcamp.
 
 - Desafio JavaScript: **DetalhePokedex** - Neste desafio foi sujerido desenvolver uma página de detalhes de um pokemon que é carregada ao clicar em um pokemon específico da listagem. O layout foi recriado conforme layout apresentado no curso. O projeto é uma continuação do projeto [pokedex](https://github.com/astorti/Bootcamp-WarburgPincus-CloudFullStack-DIO/tree/main/CursoJavaScript/Pokedex) desenvolvido no curso de javascript, no qual foi implementado a pagina de listagem dos pokemons.
 
+- Desafio Angular: **BlogAngular** - Neste projeto foi desenvolvido juntamente com o professor uma página web de um blog, conforme [repositório](https://github.com/felipeAguiarCode/angular-blog) original do projeto desenvolvido pelo professor. Como desafio ao projeto, além da diferença do tema abordado no blog, foi melhorado a responsividade da página "Home" e também na página "Home", foi colocado os dados de forma dinâmica.
+
 ## **Pasta: DesafiosDeCódigos**
 
 Contém os Desafios de Códigos apresentados durante o bootcamp.
