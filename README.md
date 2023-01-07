@@ -55,6 +55,9 @@ Contém os Desafios de Projetos apresentados durante o bootcamp.
 
 - Desafio Angular: **BlogAngular** - Neste projeto foi desenvolvido juntamente com o professor uma página web de um blog, conforme [repositório](https://github.com/felipeAguiarCode/angular-blog) original do projeto desenvolvido pelo professor. Como desafio ao projeto, além da diferença do tema abordado no blog, foi melhorado a responsividade da página "Home" e também na página "Home", foi colocado os dados de forma dinâmica.
 
+- Desafio Angular: **BuzzFeedQuizzClone** - Neste projeto foi desenvolvido juntamente com o professor um pequeno quizz, conforme [repositório](https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone) original do projeto desenvolvido pelo professor. Como desafio para entrega do projeto do bootcamp, o projeto foi reestruturado em diversos componentes (theme-selection.component, logo.component e questions.component) para a criação da página home, também foi criado um roteamento para a pagina home e foi desenvolvido a opção de mudança de tema de layout nos modos "dark" e "light". O componente home ficou responsável pela mudança do tema de laytout de todos os componentes
+
+
 ## **Pasta: DesafiosDeCódigos**
 
 Contém os Desafios de Códigos apresentados durante o bootcamp.

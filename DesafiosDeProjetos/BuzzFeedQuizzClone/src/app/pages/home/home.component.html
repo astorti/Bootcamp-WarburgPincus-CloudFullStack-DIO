@@ -1,0 +1,27 @@
+<div class="{{backgroundColorBody}}">
+    <div class="home__container">
+        <div class="button__container">
+            <button (click)="changeBackgroundBody()">Change</button>
+        </div>
+        <app-theme-selection
+            [themeMode]="currentThemeMode"
+            [buttonName]="currentButtonName"
+            [backgroundColor]="currentBackgroundColor"
+        >
+        </app-theme-selection>
+        <app-logo [title]="currentTitle"></app-logo>
+        <app-questions
+            [question]="currentQuestion"
+            [theme]="currentTheme"
+            [questionSelected]="currentQuestionSelected"
+            [quizzQuestion]="currentQuizzQuestion"
+            [questions]="questions"
+            [answers]="answers"
+            [questionIndex]="questionIndex"
+            [questionMaxIndex]="questionMaxIndex"
+            [buttonOptionsTheme]="currentButtonOptionTheme"
+            [quizzResultTheme]="currentQuizzResultTheme"
+        ></app-questions>
+        
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="quizz__container">
+    <h3 class={{theme}}>{{question}}</h3>
+        
+    <div *ngIf="!finished" class="{{quizzQuestion}}">
+        <div *ngIf="!finished" class="quizz_questions">
+            <h3 class={{theme}}>{{questionSelected.question}}</h3>
+        </div>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_options">
+        <button 
+            *ngFor="let option of questionSelected.options; let i = index"
+            (click)="playerChoice(option.alias)"
+            class="{{buttonOptionsTheme}}"
+            >
+            {{option.name}}
+        </button>
+    </div>
+
+    <div *ngIf="finished" class={{quizzResultTheme}}>
+        <h1 class={{theme}}>O seu resultado é: </h1>
+        <p class={{theme}}>{{answerSelected}}</p>
+        <button class="refreshPageButton" (click)="newGame()">Novo Jogo</button>
+    </div>
+
+</div>
