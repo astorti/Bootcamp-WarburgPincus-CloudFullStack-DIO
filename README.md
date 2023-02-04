@@ -46,6 +46,27 @@ Contém os códigos apresentados em aula para a aprendizagem do Framework Angula
 - Rotas;
 - Serviços: utilização de api para recriar um pokedex com Angular
 
+## **Pasta: [CursoJava](https://github.com/astorti/Bootcamp-WarburgPincus-CloudFullStack-DIO/tree/main/CursoJava)**
+
+Contém os códigos apresentados em aula para a aprendizagem da linguagem de programação Java. 
+ 
+  __**Tópicos:**__
+- Identação; 
+- Tipos de variáveis;
+- Operadores;
+- Scanner;
+- Métodos;
+- Retornos;
+- Sobrecargas;
+- Estruturas condicionais;
+- Operadores lógicos;
+- Operadores relacionais;
+- Estruturas de repetição;
+- Arrays;
+- Programação Orientada a Objetos;
+- Collections (List, Set, Map, Stream);
+- Tratamento de exceções;
+
 
 ## **Pasta: DesafiosDeProjetos**
 
